@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1><img src="./multimedia/branding/logo_light_horizontal.svg" alt="logo de funkoshop"></h1>
+        <h1><img src="./img/branding/logo_light_horizontal.svg" alt="logo de funkoshop"></h1>
         <nav>
           <ul>
               <li><a href="shop.html">SHOP</a></li>
@@ -16,94 +16,152 @@
               <li><a href="">LOGIN</a></li>    
           </ul>
         </nav>
-        <a href=""><img src="./multimedia/icons/cart-icon.svg" alt="icono de carrito"></a>
+        <a href=""><img src="./img/icons/cart-icon.svg" alt="icono de carrito"></a>
     </header>
-    <section></section>
     <section>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
-            <p>STAR WARS</p>
-            <p>STORMTROOPER LIGHTSABER</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
-            <p>POKEMON</p>
-            <p>PIDGEOTTO</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/harry-potter/luna-1.webp" alt="figura luna"></figure>
-            <p>HARRY POTTER</p>
-            <p>LUNA LOVEGOOD LION MASK</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
-            <p>STAR WARS</p>
-            <p>STORMTROOPER LIGHTSABER</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
-            <p>POKEMON</p>
-            <p>PIDGEOTTO</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/harry-potter/luna-1.webp" alt="figura luna"></figure>
-            <p>HARRY POTTER</p>
-            <p>LUNA LOVEGOOD LION MASK</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
-            <p>STAR WARS</p>
-            <p>STORMTROOPER LIGHTSABER</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
-            <p>POKEMON</p>
-            <p>PIDGEOTTO</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
-        <article>
-            <p>NUEVO</p>
-            <figure><img src="./multimedia/harry-potter/luna-1.webp" alt="figura luna"></figure>
-            <p>HARRY POTTER</p>
-            <p>LUNA LOVEGOOD LION MASK</p>
-            <p>$ 1799,99.-</p>
-            <p>3 CUOTAS SIN INTERÉS</p>
-        </article>
+        <label for="buscar">BUSCAR
+            <input type="text" id="buscar" placeholder="item o categoría">
+        </label>
+        <label for="ordenar">ORDENAR
+            <select name="ordenar" id="ordenar">
+                <option value="1">mayor a menor</option>
+                <option value="2">menor a mayor</option>
+            </select>
+        </label>
+        <label for="precio">PRECIO
+            <label for="min">MIN<input type="number" id="min"></label>
+            <label for="max">MAX<input type="number" id="max"></label>
+        </label>
+        <label for="filtrar">FILTRAR
+            <label for="filtrar">NUEVOS<input type="checkbox" id="filtrar"></label>
+            <label for="filtrar">OFERTAS<input type="checkbox" id="filtrar"></label>
+            <label for="filtrar">EDICIÓN ESPECIAL<input type="checkbox" id="filtrar"></label>
+            <label for="filtrar">FAVORITOS<input type="checkbox" id="filtrar"></label>
+        </label>
+    </section>
+    <section>
+        <ul>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
+                        <p>STAR WARS</p>
+                        <p>STORMTROOPER LIGHTSABER</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <article>
+                <a href="">
+                    <p>NUEVO</p>
+                    <figure><img src="./img/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
+                    <p>POKEMON</p>
+                    <p>PIDGEOTTO</p>
+                    <p>$ 1799,99.-</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </a>
+            </article>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/harry-potter/luna-1.webp" alt="figura luna"></figure>
+                        <p>HARRY POTTER</p>
+                        <p>LUNA LOVEGOOD LION MASK</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
+                        <p>STAR WARS</p>
+                        <p>STORMTROOPER LIGHTSABER</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
+                        <p>POKEMON</p>
+                        <p>PIDGEOTTO</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/harry-potter/luna-1.webp" alt="figura luna"></figure>
+                        <p>HARRY POTTER</p>
+                        <p>LUNA LOVEGOOD LION MASK</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/star-wars/trooper-1.webp" alt="figura storm trooper"></figure>
+                        <p>STAR WARS</p>
+                        <p>STORMTROOPER LIGHTSABER</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/pokemon/pidgeotto-1.webp" alt="figura pidgeotto"></figure>
+                        <p>POKEMON</p>
+                        <p>PIDGEOTTO</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <a href="">
+                        <p>NUEVO</p>
+                        <figure><img src="./img/harry-potter/luna-1.webp" alt="figura luna"></figure>
+                        <p>HARRY POTTER</p>
+                        <p>LUNA LOVEGOOD LION MASK</p>
+                        <p>$ 1799,99.-</p>
+                        <p>3 CUOTAS SIN INTERÉS</p>
+                    </a>
+                </article>
+            </li>
+        </ul>
     </section>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="shop">SHOP</a></li>
-                <li><a href="">REGISTRARSE</a></li>
-                <li><a href="">INGRESAR</a></li>
-                <li><a href="">CONTACTO</a></li>
-            </ul>
-            <figure><img src="" alt=""></figure>
-            <p>All rights reserved 2022 - Funkoshop &copy;</p>
-        </nav>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="shop">SHOP</a></li>
+                    <li><a href="">REGISTRARSE</a></li>
+                    <li><a href="">INGRESAR</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <figure><img src="./img/branding/isotype.svg" alt="isologo funkoshop"></figure>
+        </div>
+        <p>All rights reserved 2022 - Funkoshop &copy;</p>
     </footer>
 </body>
 </html>
